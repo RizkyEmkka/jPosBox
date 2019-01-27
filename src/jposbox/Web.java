@@ -277,7 +277,7 @@ public class Web {
                             if (nNode2.getNodeName().equals("left")) P.add("<tr><td><div alight=\"left\">"+nNode2.getTextContent()+"</div></td>");
                             if (nNode2.getNodeName().equals("right")){
                                 double value1 = Double.parseDouble(nNode2.getTextContent());
-                                String value2=String.format("%.2f",value1);
+                                String value2=String.format("%,.0f",value1)+" đ";
                                 P.add("<td><div align=\"right\">"+value2+"</div></td></tr>");
                             }
                         }
@@ -303,15 +303,17 @@ public class Web {
                                 if (nNode2.getNodeName().equals("left")) P.add("<tr><td><div alight=\"left\">"+negrita+nNode2.getTextContent()+"</div></td>");
                                 if (nNode2.getNodeName().equals("right")){
                                     double value1 = Double.parseDouble(nNode2.getTextContent());
-                                    String value2=String.format("%.2f",value1);
+                                    String value2=String.format("%,.0f",value1)+" đ";
                                     P.add("<td><div align=\"right\">"+negrita+value2+"</div></td></tr>");
                                 }
                             }
                             P.add("</table>");
                         }
                         else P.add(nNode.getTextContent());
+                        
                         P.salto();
                     }
+                    P.add("<br/><center>Cảm ơn Quý khách</center>");
                     
                     P.print(printername,1,"7");
                 }

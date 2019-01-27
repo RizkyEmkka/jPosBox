@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jan 27 00:34:14 ICT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0168-8b39-e7a7-00000322f260 
+on database directory C:\Users\DELL\jPosBox\db with class loader sun.misc.Launcher$AppClassLoader@7852e922 
+Loaded from file:/E:/Odoo/jPosBox/jPosBox/dist/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=E:\Odoo\jPosBox\jPosBox\dist
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
